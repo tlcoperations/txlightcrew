@@ -29,8 +29,8 @@
   --off-white: #f4f6f8;
   --gray: #8a9bb0;
   --gray-light: #c5d0dc;
-  --gold: #f0b429;
-  --gold-light: #fce588;
+  --gold: #16a34a;
+  --gold-light: #4ade80;
   --text: #e8edf5;
   --text-muted: rgba(232, 237, 245, 0.7);
   --border: rgba(255, 255, 255, 0.08);
@@ -584,8 +584,8 @@ a:focus-visible {
 .stat__icon {
   width: 44px;
   height: 44px;
-  background: rgba(240, 180, 41, .12);
-  border: 1px solid rgba(240, 180, 41, .2);
+  background: rgba(22, 163, 74, .12);
+  border: 1px solid rgba(22, 163, 74, .2);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -872,7 +872,7 @@ a:focus-visible {
 }
 
 .feature-card:hover {
-  border-color: rgba(240, 180, 41, .25);
+  border-color: rgba(22, 163, 74, .25);
   box-shadow: 0 4px 20px rgba(0,0,0,.3);
 }
 

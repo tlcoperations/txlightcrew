@@ -4,9 +4,13 @@
   "description": "Texas Light Crew - Professional Christmas Light Installation",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "tinacms build && npx @11ty/eleventy",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\""
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "tinacms": "^3.9.1"
   }
 }
