@@ -3,20 +3,6 @@
    Mobile-first, WCAG 2.1 AA, performance-focused
    ============================================================ */
 
-/* === FONTS (self-hosted subset) ===
-   Using system serif for Playfair Display fallback until
-   fonts are self-hosted. Replace src URLs with local files. */
-
-/* In production, add self-hosted @font-face blocks here.
-   Example:
-   @font-face {
-     font-family: 'Playfair Display';
-     src: url('/fonts/playfair-display-700.woff2') format('woff2');
-     font-weight: 700;
-     font-display: swap;
-   }
-*/
-
 /* === CSS CUSTOM PROPERTIES === */
 :root {
   --navy: #0a1628;
@@ -34,7 +20,7 @@
   --text: #e8edf5;
   --text-muted: rgba(232, 237, 245, 0.7);
   --border: rgba(255, 255, 255, 0.08);
-  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-display: Georgia, 'Times New Roman', serif;
   --font-body: 'Source Sans 3', 'Source Sans Pro', system-ui, -apple-system, sans-serif;
   --radius: 4px;
   --radius-lg: 8px;
